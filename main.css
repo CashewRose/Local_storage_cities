@@ -1,15 +1,14 @@
 .NA {
-    border: 10px dotted green;
+    background: green;
     margin: 30px;
 }
 
 .EU {
-    border: 10px dotted orange;
+    background-color: orange;
     margin: 30px;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,4 +16,16 @@ img {
 
 div {
     display: inline-block;
+}
+.CityRow {
+    display: flex;
+    align-items: stretch;
+}
+.CityRow > div {
+    width: 33.33%;
+}
+
+.alone {
+    margin-right: auto;
+    margin-left: auto;
 }

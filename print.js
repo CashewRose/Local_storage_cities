@@ -84,6 +84,9 @@ const CityCardBuilder = (year) => {
     // Just in case there are an exact multiple of 3 students, add the last row
     if (row.childNodes.length) {
         pageref.appendChild(row)
+        for (let i = 0; i < row.childNodes.length; i++) {
+            row.childNodes[i].classList += " alone";
+        }
     }
 
 }
